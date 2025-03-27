@@ -114,7 +114,8 @@ body {
 /* change width/height for images if desired */
 .sorter > .image {
   width: 448px;
-  height: 358.4px;
+  /*height: 358.4px;*/
+  height: auto;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
