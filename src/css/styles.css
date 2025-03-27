@@ -42,9 +42,9 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 180px 1fr 180px;
+  grid-template-columns: 448px 1fr 448px;
   grid-gap: 5px;
-  width: 540px;
+  width: 1176px;
 }
 
 .button {
@@ -113,16 +113,15 @@ body {
 
 /* change width/height for images if desired */
 .sorter > .image {
-  width: 180px;
-  height: 180px;
+  width: 448px;
+  height: 358.4px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
-/* width here needs to match above width */
 .sorter > .text {
-  width: 180px;
+  width: 448px;
   height: 60px;
   display: none;
 }
@@ -131,7 +130,7 @@ body {
   margin: 0.5em 5px 0px;
   width: calc(100%-10px);
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 
@@ -214,7 +213,7 @@ label:hover {
   height: 15px;
   margin-bottom: -1px;
   display: grid;
-  width: 211px;
+  width: 280px;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #000;
   margin-right: 5px;
@@ -257,7 +256,7 @@ label:hover {
 }
 
 .result > .right {
-  width: 160px;
+  width: 220px;
   padding: 1px 0em 1px 0em;
   grid-column: 2 / 3;
   border-left: 1px solid #000;
