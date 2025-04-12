@@ -615,7 +615,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Charlotte Pudding",
-    img: "https://i.imgur.com/MYXw9u8.png",
+    img: "https://i.imgur.com/6r7s54W.png",
     opts: {
       saga: [ "WCIS"]
     }
@@ -678,6 +678,14 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.imgur.com/oVdQmSo.png",
     opts: {
       saga: [ "SIS"]
+    }
+  },
+  {
+    name: "Corgi",
+    img: "https://i.imgur.com/uMCJZTl.png",
+    opts: {
+      saga: [ "W7S"],
+	  minor: true
     }
   },
   {
@@ -788,7 +796,14 @@ dataSet[dataSetVersion].characterData = [
     name: "Doc Q",
     img: "https://i.imgur.com/1InNJKJ.png",
     opts: {
-      saga: [ "SIS", "SWS", "FS"],
+      saga: [ "SIS", "SWS", "FS"]
+    }
+  },
+  {
+    name: "Domino",
+    img: "https://i.imgur.com/gJ3h20H.png",
+    opts: {
+      saga: [ "SWS"],
 	  minor: true
     }
   },
@@ -2389,6 +2404,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Risky Brothers",
+    img: "https://i.imgur.com/Ei2ARS5.png",
+    opts: {
+      saga: [ "TBS"],
+	  minor: true
+    }
+  },
+  {
     name: "Rob Lucci",
     img: "https://i.imgur.com/oX3AQfg.png",
     opts: {
@@ -2456,7 +2479,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Sadi",
     img: "https://i.imgur.com/p0Yy0s1.png",
     opts: {
-      saga: [ "SWS"]
+      saga: [ "SWS"],
+	  minor: true
     }
   },
   {
@@ -2953,6 +2977,13 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Van Augur",
+    img: "https://i.imgur.com/keG9aVP.png",
+    opts: {
+      saga: [ "SIS", "SWS", "FS"]
+    }
+  },
+  {
     name: "Vander Decken IX",
     img: "https://i.imgur.com/pwQgaT7.png",
     opts: {
@@ -3125,6 +3156,15 @@ dataSet[dataSetVersion].characterData = [
     img: "https://i.imgur.com/cxx68eu.png",
     opts: {
       saga: [ "EBS", "FS"]
+    }
+  },
+  {
+    name: "Yokozuna",
+    img: "https://i.imgur.com/4iDX98s.png",
+    opts: {
+      saga: [ "W7S"],
+	  animal: true,
+	  minor: true
     }
   },
   {

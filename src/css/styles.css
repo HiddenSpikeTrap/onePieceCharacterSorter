@@ -114,8 +114,7 @@ body {
 /* change width/height for images if desired */
 .sorter > .image {
   width: 448px;
-  /*height: 358.4px;*/
-  height: auto;
+  height: 358.4px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
@@ -125,6 +124,7 @@ body {
   width: 448px;
   height: 60px;
   display: none;
+  border: 1px solid #000000;
 }
 
 .sorter > .text > p {
@@ -138,11 +138,13 @@ body {
 .sorter > .left {
   grid-column: 1 / 2;
   border: 1px solid #000000;
+  object-fit: contain;
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
   border: 1px solid #000000;
+  object-fit: contain;
 }
 
 .options {
@@ -155,7 +157,7 @@ body {
 }
 
 .options > div {
-  font-size: 0.5625em;
+  font-size: 0.8em;
 }
 
 label {
@@ -265,10 +267,10 @@ label:hover {
 }
 
 .info {
-  margin: 2em auto 3em;
+  margin: 1em auto 3em;
   display: block;
   text-align: center;
-  font-size: 0.6875em;
+  font-size: 0.9em;
   width: 80%;
   line-height: 1.2em;
 }
